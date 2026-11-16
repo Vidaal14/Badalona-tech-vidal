@@ -1,0 +1,55 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+.pag-ent{
+    padding: 1px;
+}
+.cabecera{
+width: 100%;
+background-color: #043e80;
+display: flex;
+align-items: center;
+padding: 10px;
+}
+.logo{
+display: flex;
+align-items: center;
+}
+.logo img{
+width: 55px;
+height: 55px;
+}
+.linea-der{
+height: 50px;
+width: 1px;
+margin-left: 10px;
+margin-right: 16px;
+border-right: solid #7188a8 1px;
+}
+.t-logo{
+color: white;
+}
+h1{
+font-size: 23px;
+margin-bottom: 1px;
+}
+.t-logo p{
+font-size: 14px;
+}
+.menu{
+display: flex;
+align-items: center;
+gap: 18px;
+margin-left: 60%;
+}
+.menu a{
+text-decoration: none;
+color: white;
+font-size: 14px;
+padding: 10px 8px;
+}
+.btn-inici{
+background-color: #168fe5;
+border-radius: 6px;
+padding: 10px 15px;
+}
