@@ -40,7 +40,7 @@ font-size: 14px;
 display: flex;
 align-items: center;
 gap: 18px;
-margin-left: 60%;
+margin-left: auto;
 }
 .menu a{
 text-decoration: none;
