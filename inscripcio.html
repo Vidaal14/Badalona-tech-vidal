@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,18 +14,59 @@
             </div>
             <div class="linea-der"></div>
             <div class="t-logo">
-                <h1>Badalona Tech 2027</h1>
+                <span>Badalona Tech 2027</span>
                 <p>Fira de tecnologia, informació i innovació</p>
             </div>
             <nav class="menu">
-                <a href="index.html" class="btn-inici">Inici</a>
+                <a href="index.html">Inici</a>
                 <a href="activitats.html">Activitats</a>
                 <a href="horaris.html">Horaris</a>
-                <a href="#">Inscripció</a>
+                <a href="#" class="btn-insc">Inscripció</a>
             </nav>
         </header>
         <main>
-
+            <div class="inicio-insc">
+                <img src="images/clip.svg" alt="imatge de tabla d'apuntar">
+                <h1>Inscripció a la fira</h1>
+                <p>Omple el formulari següent per inscriure't a la Badalona Tech 2027.</p>
+            </div>
+            <form action="" method="get">
+                <section class="dades-personals">
+                    <h2>Dades personals</h2>
+                    <div class="nom-correu">
+                        <div class="nom">
+                            <label for="nom">Nom complet</label>
+                            <input type="text" id="nom" placeholder="Nom i cognoms" required>
+                        </div>
+                        <div class="correu">
+                            <label for="correo">Correu electrònic</label>
+                            <input type="email" id="correo" placeholder="nom@exemple.cat" required>
+                        </div>
+                    </div>
+                    <label for="telefon">Telèfon</label>
+                    <input type="tel" id="telefon" placeholder="600 000 000">
+                </section>
+                <section class="activitat-preferencias">
+                    <h2>Activitat i prèferències</h2>
+                    <label for="activitat-form">Activitat</label>
+                    <select name="act" id="activitat-form">
+                        <option value="">Selecciona una activitat</option>
+                        <option value="1">Taller de robòtica</option>
+                        <option value="2">Introducció a la ciberseguretat</option>
+                        <option value="3">Crea la teva primera web</option>
+                    </select>
+                    <div>
+                        <label for="dia">Dia d'assistencia</label>
+                        <input type="radio" name="dies" id="dia" required>
+                        <label for="diss">Dissabte</label>
+                        <input type="radio" name="dies" id="diss">
+                        <label for="diu">Diumenge</label>
+                        <input type="radio" name="dies" id="diu">
+                    </div>
+                    <label for="observacions">observacions</label>
+                </section>
+                <div></div>
+            </form>
         </main>
         <footer>
 

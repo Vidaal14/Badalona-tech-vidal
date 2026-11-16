@@ -40,7 +40,7 @@ font-size: 14px;
 display: flex;
 align-items: center;
 gap: 18px;
-margin-left: auto;
+margin-left: 60%;
 }
 .menu a{
 text-decoration: none;
@@ -52,4 +52,49 @@ padding: 10px 8px;
 background-color: #168fe5;
 border-radius: 6px;
 padding: 10px 15px;
+}
+.primer-divindex h2{
+    color: #041a4a;
+}
+.img-fira{
+    justify-content: end;
+}
+.img-fira img{
+    width: 360px;
+    height: 250px;
+    border-radius: 10px;
+}
+.texto-fira{
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+}
+.btn-act{
+    background-color: #168fe5;
+    border-radius: 6px;
+    padding: 10px 15px;
+}
+.btn-horari{
+    background-color: #168fe5;
+    border-radius: 6px;
+    padding: 10px 15px;
+}
+.btn-insc{
+    background-color: #168fe5;
+    border-radius: 6px;
+    padding: 10px 15px;
+}
+.tabla{
+    border: solid #50a0e6 1px;
+}
+td{
+     border: solid #50a0e6 1px;
+}
+th{
+     border: solid #50a0e6 1px;
+}
+footer{
+    background-color: #043e80;
 }
